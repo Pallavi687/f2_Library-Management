@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: #ffffff;
+    font-family: 'Inter';
+}
+body{
+    background-color: black;
+}
+#container{
+    margin-top: 25px;
+    margin-left: 20px;
+}
+#heading{
+  font-size: 20px; 
+}
+.inputs1{
+    margin-top: 40px;
+    display: flex;
+  
+}
+.inputs2{
+    margin-top: 10px;
+    display: flex;
+  
+}
+#input_book_name_lable{
+    font-size: 20px;
+}
+#input_book_name{
+    position: relative;
+    left: 38px;
+    top: -8px;
+
+    
+}
+#bookName{
+    background-color: rgb(0, 0, 0);
+    border: 1px solid white;
+    height: 40px;
+    width: 450px;
+    font-size: 22px;
+}
+#input_user_name_lable{
+    font-size: 22px;
+}
+#input_user_name{
+    position: relative;
+    left: 45px;
+    top: -8px;
+}
+#issuedTo{
+    background-color: rgb(0, 0, 0);
+    border: 1px solid white;
+    height: 40px;
+    width: 450px;
+    font-size: 22px;
+    
+}
+#issue_Books{
+    position: relative;
+    top: 10px;
+    color: black;
+  width: 605px;
+  height: 40px;
+   
+}
+#table, tr, th {
+    border: 1px solidi black;
+   position: relative;
+   
+    border-collapse: collapse;
+    justify-content: space-evenly;
+
+    height: 20px;
+    width: 1330px;
+}body{
+    background-color: black;
+}
+table {
+border: 1px solid black;
+
+border-collapse: collapse;
+width: 100%;
+}
+th,
+td {
+text-align: center;
+padding: 8px;
+border: 1px solid white;
+font-color:white;
+}
+th {
+background-color: black;
+}
+/* tr:nth-child(even) {
+background-color: #f2f2f2;
+} */
+.status {
+font-weight: bold;
+}
+.status.returned {
+color: green;
+}
+.status.not-returned {
+color: red;
+}
+.status {
+cursor: pointer;
+}
+th{
+color: white;
+}
+h1{
+margin-left: 20px;
+color: white;
+}
+label{
+color: white;
+}
+td{
+color: white;
+}
+label{
+margin-left: 20px;
+margin-right: 15px;
+}
+button{
+width: 28%;
+padding: 5px;
+margin-top: 10px;
+margin-left: 20px;
+
+}
+#issued-to{
+margin-left: 14px;
+}
+input{
+border: 1px solid white;
+background-color: black;
+padding: 5px;
+width: 20%;
+}
